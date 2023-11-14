@@ -1,0 +1,253 @@
+
+
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+
+        $content_id = $_POST['id'];
+        
+    	
+	if( $content_id==1){
+		$header1 = $_POST['header'];
+            
+        $text1 = $_POST['text'];
+        $sql = "UPDATE about SET aboutheader = '$header1', abouttext = '$text1' WHERE id = $content_id";
+
+
+
+					$sqll = "SELECT aboutheader, abouttext FROM about WHERE id = $content_id";
+
+				// Execute the query
+				$result = $conn->query($sqll);
+
+				// Check if a matching row is found
+				if ($result->num_rows > 0) {
+					// Fetch the result as an associative array
+					$row = $result->fetch_assoc();
+					$header_value1 = $row['aboutheader'];
+					$text_value1 = $row['abouttext'];
+
+					// Now $header_value contains the header value and $text_value contains the text value where id is 6
+				} else {
+					echo "No data found for the given ID.";
+				}
+
+
+
+				$sql2 = "SELECT aboutheader, abouttext FROM about WHERE id = 2";
+
+				// Execute the query
+				$result = $conn->query($sql2);
+
+				// Check if a matching row is found
+				if ($result->num_rows > 0) {
+					// Fetch the result as an associative array
+					$row = $result->fetch_assoc();
+					$header_value2 = $row['aboutheader'];
+					$text_value2 = $row['abouttext'];
+
+					// Now $header_value contains the header value and $text_value contains the text value where id is 6
+				} else {
+					echo "No data found for the given ID.";
+				}
+				$sql3 = "SELECT aboutheader, abouttext FROM about WHERE id = 3";
+
+				// Execute the query
+				$result = $conn->query($sql3);
+
+				// Check if a matching row is found
+				if ($result->num_rows > 0) {
+					// Fetch the result as an associative array
+					$row = $result->fetch_assoc();
+					$header_value3 = $row['aboutheader'];
+					$text_value3 = $row['abouttext'];
+
+					// Now $header_value contains the header value and $text_value contains the text value where id is 6
+				} else {
+					echo "No data found for the given ID.";
+				}
+			}
+elseif( $content_id==2){
+	
+		$header2 = $_POST['header'];
+    $text2 = $_POST['text'];
+        $sql = "UPDATE about SET aboutheader = '$header2', abouttext = '$text2' WHERE id = $content_id";
+
+
+
+					$sqll = "SELECT aboutheader, abouttext FROM about WHERE id = $content_id";
+
+				// Execute the query
+				$result = $conn->query($sqll);
+
+				// Check if a matching row is found
+				if ($result->num_rows > 0) {
+					// Fetch the result as an associative array
+					$row = $result->fetch_assoc();
+					$header_value1 = $row['aboutheader'];
+					$text_value1 = $row['abouttext'];
+
+					// Now $header_value contains the header value and $text_value contains the text value where id is 6
+				} else {
+					echo "No data found for the given ID.";
+				}
+				$sql1 = "SELECT aboutheader, abouttext FROM about WHERE id = 1";
+
+				// Execute the query
+				$result = $conn->query($sql1);
+
+				// Check if a matching row is found
+				if ($result->num_rows > 0) {
+					// Fetch the result as an associative array
+					$row = $result->fetch_assoc();
+					$header_value1 = $row['aboutheader'];
+					$text_value1 = $row['abouttext'];
+
+					// Now $header_value contains the header value and $text_value contains the text value where id is 6
+				} else {
+					echo "No data found for the given ID.";
+				}
+				$sql3 = "SELECT aboutheader, abouttext FROM about WHERE id = 3";
+
+				// Execute the query
+				$result = $conn->query($sql3);
+
+				// Check if a matching row is found
+				if ($result->num_rows > 0) {
+					// Fetch the result as an associative array
+					$row = $result->fetch_assoc();
+					$header_value3 = $row['aboutheader'];
+					$text_value3 = $row['abouttext'];
+
+					// Now $header_value contains the header value and $text_value contains the text value where id is 6
+				} else {
+					echo "No data found for the given ID.";
+				}
+
+			}
+		}
+elseif( $content_id==3){
+	
+		$header3 = $_POST['header'];
+    $text3 = $_POST['text'];
+        $sql = "UPDATE about SET aboutheader = '$header1', abouttext = '$text2' WHERE id = $content_id";
+
+
+
+					$sqll = "SELECT aboutheader, abouttext FROM about WHERE id = $content_id";
+
+				// Execute the query
+				$result = $conn->query($sqll);
+
+				// Check if a matching row is found
+				if ($result->num_rows > 0) {
+					// Fetch the result as an associative array
+					$row = $result->fetch_assoc();
+					$header_value1 = $row['aboutheader'];
+					$text_value1 = $row['abouttext'];
+
+					// Now $header_value contains the header value and $text_value contains the text value where id is 6
+				} else {
+					echo "No data found for the given ID.";
+				}
+				$sql1 = "SELECT aboutheader, abouttext FROM about WHERE id = 1";
+
+				// Execute the query
+				$result = $conn->query($sql1);
+
+				// Check if a matching row is found
+				if ($result->num_rows > 0) {
+					// Fetch the result as an associative array
+					$row = $result->fetch_assoc();
+					$header_value1 = $row['aboutheader'];
+					$text_value1 = $row['abouttext'];
+
+					// Now $header_value contains the header value and $text_value contains the text value where id is 6
+				} else {
+					echo "No data found for the given ID.";
+				}
+				$sql2 = "SELECT aboutheader, abouttext FROM about WHERE id = 2";
+
+				// Execute the query
+				$result = $conn->query($sql2);
+
+				// Check if a matching row is found
+				if ($result->num_rows > 0) {
+					// Fetch the result as an associative array
+					$row = $result->fetch_assoc();
+					$header_value2 = $row['aboutheader'];
+					$text_value2 = $row['abouttext'];
+
+					// Now $header_value contains the header value and $text_value contains the text value where id is 6
+				} else {
+					echo "No data found for the given ID.";
+				}
+
+
+
+			}
+
+
+
+
+
+		
+     
+
+
+
+
+			
+
+
+
+	
+
+
+
+				$sqll1 = "SELECT aboutheader, abouttext FROM about WHERE id = 1";
+
+				// Execute the query
+				$result = $conn->query($sqll1);
+
+				// Check if a matching row is found
+				if ($result->num_rows > 0) {
+					// Fetch the result as an associative array
+					$row = $result->fetch_assoc();
+					$header_value1 = $row['aboutheader'];
+					$text_value1 = $row['abouttext'];
+
+				}
+					
+				$sqll2 = "SELECT aboutheader, abouttext FROM about WHERE id = 2";
+
+				// Execute the query
+				$result = $conn->query($sqll2);
+
+				// Check if a matching row is found
+				if ($result->num_rows > 0) {
+					// Fetch the result as an associative array
+					$row = $result->fetch_assoc();
+					$header_value2 = $row['aboutheader'];
+					$text_value2 = $row['abouttext'];
+
+				}
+
+					$sqll3 = "SELECT aboutheader, abouttext FROM about WHERE id = 3";
+
+				// Execute the query
+				$result = $conn->query($sqll3);
+
+				// Check if a matching row is found
+				if ($result->num_rows > 0) {
+					// Fetch the result as an associative array
+					$row = $result->fetch_assoc();
+					$header_value3 = $row['aboutheader'];
+					$text_value3 = $row['abouttext'];
+
+
+				}
+
+
+
+
+    
