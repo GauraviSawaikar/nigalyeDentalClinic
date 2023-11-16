@@ -193,7 +193,7 @@ include "includes/header.php";
 
 			?>
 				<div class="service-block_two">
-					<div class="service-block_two-inner" style="height: 430px;">
+					<div class="service-block_two-inner" style="height: 465px;">
 						<div class="service-block-two_pattern" style="background-image:url(assets/images/pattern-9.png)"></div>
 						<div class="service-block-two_pattern-two" style="background-image:url(assets/images/pattern-10.png)"></div>
 						<img src="assets/<?php echo $serviceimage ?>" class="pro" style="display: block;height: 200px;width: 200px;" alt="" />
@@ -281,9 +281,9 @@ include "includes/header.php";
 							<img src="assets/images/resource/video-image.jpg" alt="" />
 							<!-- <a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-video about-two_video-box fa fa-play"><i class="ripple"></i></a> -->
 						</div>
-						<div class="about-two_tag">
+						<!-- <div class="about-two_tag">
 							<img src="assets/images/icons/tag-icon.png" alt="" />
-						</div>
+						</div> -->
 						<div class="about-two_image">
 							<img src="assets/images/resource/about-3.jpg" alt="" />
 						</div>
@@ -309,10 +309,10 @@ include "includes/header.php";
 			
 			<div class="row clearfix" style="justify-content: center;">
 				
-				<div class="team-block_two col-lg-3 col-md-6 col-sm-6">
+				<div class="team-block_two col-lg-4 col-md-6 col-sm-6">
 					<div class="team-block_two-inner">
 						<div class="team-block_two-image">
-							<div class="team-block_two-gradient"></div>
+							<div class="team-block_two-gradient" style="z-index: 0;"></div>
 							<a href="javascript:;"><img src="assets/images/Dr.GauriNigalye.png" alt="" /></a>
 							<div class="team-block_two-social">
 								<span class="team-block_two-share flaticon-plus"></span>
@@ -332,10 +332,10 @@ include "includes/header.php";
 				</div>
 
 				<!-- Team Block Two -->
-				<div class="team-block_two col-lg-3 col-md-6 col-sm-6">
+				<div class="team-block_two col-lg-4 col-md-6 col-sm-6">
 					<div class="team-block_two-inner">
 						<div class="team-block_two-image">
-							<div class="team-block_two-gradient"></div>
+							<div class="team-block_two-gradient" style="z-index: 0;"></div>
 							<a href="javascript:;"><img src="assets/images/Dr.Atifshaikh.png" alt="" /></a>
 							<div class="team-block_two-social">
 								<span class="team-block_two-share flaticon-plus"></span>
@@ -355,10 +355,10 @@ include "includes/header.php";
 				</div>
 				
 				<!-- Team Block Two -->
-				<div class="team-block_two col-lg-3 col-md-6 col-sm-6">
+				<div class="team-block_two col-lg-4 col-md-6 col-sm-6">
 					<div class="team-block_two-inner">
 						<div class="team-block_two-image">
-							<div class="team-block_two-gradient"></div>
+							<div class="team-block_two-gradient" style="z-index: 0;"></div>
 							<a href="javascript:;"><img src="assets/images/Dr.AbhishekKumar.png" alt="" /></a>
 							<div class="team-block_two-social">
 								<span class="team-block_two-share flaticon-plus"></span>
@@ -377,10 +377,10 @@ include "includes/header.php";
 					</div>
 				</div>
 
-				<!-- <div class="team-block_two col-lg-3 col-md-6 col-sm-6">
+				<!-- <div class="team-block_two col-lg-4 col-md-6 col-sm-6">
 					<div class="team-block_two-inner">
 						<div class="team-block_two-image">
-							<div class="team-block_two-gradient"></div>
+							<div class="team-block_two-gradient" style="z-index: 0;"></div>
 							<a href="javascript:;"><img src="assets/images/Dr.AbhishekKumar.png" alt="" /></a>
 							<div class="team-block_two-social">
 								<span class="team-block_two-share flaticon-plus"></span>
@@ -406,79 +406,7 @@ include "includes/header.php";
 	</section>
 	<!-- End Team Two -->
 	
-	<!-- Question One -->
-	<section class="question-one">
-		<div class="auto-container">
-			<div class="question-one-inner_container" style="background-image:url(assets/images/background/pattern-14.png)">
-				<div class="row clearfix">
-					<!-- Title Column -->
-					<div class="question-one_title-column col-lg-5 col-md-12 col-sm-12">
-						<!-- Sec Title -->
-						<div class="sec-title">
-							<div class="sec-title_title">CONTACT US</div>
-							<h2 class="sec-title_heading">Have questions? Get in touch!</h2>
-							<div class="sec-title_text">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Ut enim ad minim.</div>
-						</div>
-						<ul class="question-one_contact-list">
-							<li><span class="icon fa-solid fa-phone fa-fw"></span>Paraste,1/67/B, near Nigalye General Stores,Pernem,Goa 403512</li>
-							<li><span class="icon fa-solid fa-envelope fa-fw"></span> <a href="mailto:nigalyedentalclinic@gmail.com">nigalyedentalclinic@gmail.com</a></li>
-							<li><span class="icon fa-solid fa-clock fa-fw"></span>Mon - Sat 10:00 - 1:00 and 4:00 - 8:00, <br> Sunday - CLOSED</li>
-						</ul>
-					</div>
-					<!-- Form Column -->
-					<div class="question-one_form-column col-lg-7 col-md-12 col-sm-12">
-						
-						<!-- Default Form -->
-						<div class="default-form">
-							<form method="post" action="contact.html">
-								<div class="row clearfix">
-									
-									<div class="col-lg-6 col-md-6 col-sm-12 form-group">
-										<input type="text" name="username" placeholder="Name" required="">
-									</div>
-									
-									<div class="col-lg-6 col-md-6 col-sm-12 form-group">
-										<input type="text" name="email" placeholder="Email" required="">
-									</div>
-									
-									<div class="col-lg-6 col-md-6 col-sm-12 form-group">
-										<input type="text" name="phone" placeholder="Phone" required="">
-									</div>
-									
-									<div class="col-lg-6 col-md-6 col-sm-12 form-group">
-										<input type="text" name="department" placeholder="Department" required="">
-									</div>
-									
-									<div class="col-lg-12 col-md-12 col-sm-12 form-group">
-										<textarea class="" name="message" placeholder="how can i help you? Feel free to get in touch"></textarea>
-									</div>
-									
-									<div class="col-lg-12 col-md-12 col-sm-12 form-group">
-										<!-- Button Box -->
-										<div class="button-box align-items-center flex-wrap d-flex">
-											<button class="theme-btn btn-style-one">
-												<span class="btn-wrap">
-													<span class="text-one">get in touch</span>
-													<span class="text-two">get in touch</span>
-												</span>
-											</button>
-											<div class="check-box">
-												<input type="checkbox" name="remember-password" id="type-1">
-												<label for="type-1">I agree that my submitted data is collected and stored.</label>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-							</form>
-						</div>
-						<!-- End Default Form -->
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	
 	<!-- End Question One -->
 	
 	<!-- Testimonial Two -->
