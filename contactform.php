@@ -15,6 +15,7 @@ if (isset($_POST['email'])) {
     $message = $_POST['message'];
 
     $to = 'nigalyedentalclinic@gmail.com';  // PUT YOUR EMAIL ID
+
     $subject = $msg_subject;
     $message_body = "Name: $name<br>";
     $message_body .= "Email: $email<br>";
@@ -32,6 +33,7 @@ if (isset($_POST['email'])) {
         $mail->Port = 465; 
         $mail->Username = 'nigalyedentalclinic@gmail.com'; //PUT EMAIL 
         $mail->Password = 'Nigalye@321'; //PUT PASSWORD
+
 
         // Recipients
         $mail->setFrom($to, $name); 
