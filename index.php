@@ -196,7 +196,7 @@ include "includes/header.php";
 					<div class="service-block_two-inner" style="height: 430px;">
 						<div class="service-block-two_pattern" style="background-image:url(assets/images/pattern-9.png)"></div>
 						<div class="service-block-two_pattern-two" style="background-image:url(assets/images/pattern-10.png)"></div>
-						<img src="assets/<?php echo $serviceimage ?>" class="pro" width="200" height="200" style="display: block;" alt="" />
+						<img src="assets/<?php echo $serviceimage ?>" class="pro" style="display: block;height: 200px;width: 200px;" alt="" />
 						<h4 class="service-block_two-heading" style="height: 66px;"><a href="javascript:;"><?php echo $header_value ?></a></h4>
 						<div class="service-block_two-text"><?php echo $truncated_text ?></div>
 						<a class="service-block_two-more" href="javascript:;">Read More</a>
