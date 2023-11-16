@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html>
@@ -107,12 +108,21 @@ if ($conn->connect_error) {
 
 
 
+=======
+<?php  
+include "includes/header.php";
+?>
+
+<body class="hidden-bar-wrapper">
+
+>>>>>>> c14eab8 (dental)
 <div class="page-wrapper">
  	
 	<!-- Preloader -->
     <div class="preloader"></div>
 	<!-- End Preloader -->
 	
+<<<<<<< HEAD
  	<!-- Header Style One -->
 	 <header class="main-header header-style-two">
     	
@@ -420,14 +430,30 @@ if ($conn->connect_error) {
 			<h2>Our Blog</h2>
 			<ul class="bread-crumb clearfix">
 				<li><a href="home.php">Home</a></li>
+=======
+	<?php  
+	include "includes/navbar.php";
+	?>
+	
+	
+	<!-- Page Title -->
+    <section class="page-title" style="background-image:url(assets/images/background/3.jpg)">
+        <div class="auto-container">
+			<h2>Our Blog</h2>
+			<ul class="bread-crumb clearfix">
+				<li><a href="index.php">Home</a></li>
+>>>>>>> c14eab8 (dental)
 				<li>Our Blog</li>
 			</ul>
         </div>
     </section>
     <!-- End Page Title -->
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> c14eab8 (dental)
 	
 	<!-- Blog Page -->
 	<section class="blog-page">
@@ -435,6 +461,7 @@ if ($conn->connect_error) {
 			<div class="row clearfix">
 				
 				<!-- News Block One -->
+<<<<<<< HEAD
 
 
 				<?php 
@@ -559,6 +586,12 @@ if ($conn->connect_error) {
 					<div class="news-block_one-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="news-block_one-image">
 							<a href="blog-detail.html"><img src="images/news-4.jpg" alt="" /></a>
+=======
+				<div class="news-block_one col-lg-4 col-md-6 col-sm-12">
+					<div class="news-block_one-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="news-block_one-image">
+							<a href="blog-detail.html"><img src="assets/images/resource/news-1.jpg" alt="" /></a>
+>>>>>>> c14eab8 (dental)
 						</div>
 						<div class="news-block_one-content">
 							<div class="news-block_one-date"><span>22</span> jan 2023</div>
@@ -570,6 +603,7 @@ if ($conn->connect_error) {
 							<div class="news-block_one-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </div>
 						</div>
 					</div>
+<<<<<<< HEAD
 				</div> -->
 				
 				<!-- News Block One -->
@@ -631,6 +665,15 @@ if ($conn->connect_error) {
 					<div class="news-block_one-inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="news-block_one-image">
 							<a href="blog-detail.html"><img src="images/news-2.jpg" alt="" /></a>
+=======
+				</div>
+				
+				<!-- News Block One -->
+				<div class="news-block_one col-lg-4 col-md-6 col-sm-12">
+					<div class="news-block_one-inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="news-block_one-image">
+							<a href="blog-detail.html"><img src="assets/images/resource/news-2.jpg" alt="" /></a>
+>>>>>>> c14eab8 (dental)
 						</div>
 						<div class="news-block_one-content">
 							<div class="news-block_one-date"><span>22</span> jan 2023</div>
@@ -643,12 +686,21 @@ if ($conn->connect_error) {
 						</div>
 					</div>
 				</div>
+<<<<<<< HEAD
 				 -->
 				<!-- News Block One -->
 			<!-- 	<div class="news-block_one col-lg-4 col-md-6 col-sm-12">
 					<div class="news-block_one-inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="news-block_one-image">
 							<a href="blog-detail.html"><img src="images/news-3.jpg" alt="" /></a>
+=======
+				
+				<!-- News Block One -->
+				<div class="news-block_one col-lg-4 col-md-6 col-sm-12">
+					<div class="news-block_one-inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="news-block_one-image">
+							<a href="blog-detail.html"><img src="assets/images/resource/news-3.jpg" alt="" /></a>
+>>>>>>> c14eab8 (dental)
 						</div>
 						<div class="news-block_one-content">
 							<div class="news-block_one-date"><span>22</span> jan 2023</div>
@@ -660,7 +712,119 @@ if ($conn->connect_error) {
 							<div class="news-block_one-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </div>
 						</div>
 					</div>
+<<<<<<< HEAD
 				</div> -->
+=======
+				</div>
+				
+				<!-- News Block One -->
+				<div class="news-block_one col-lg-4 col-md-6 col-sm-12">
+					<div class="news-block_one-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="news-block_one-image">
+							<a href="blog-detail.html"><img src="assets/images/resource/news-4.jpg" alt="" /></a>
+						</div>
+						<div class="news-block_one-content">
+							<div class="news-block_one-date"><span>22</span> jan 2023</div>
+							<ul class="news-block_one-meta">
+								<li><span class="icon fa-solid fa-folder-open fa-fw"></span>HEALTH</li>
+								<li><span class="icon fa-solid fa-comments fa-fw"></span>Comments</li>
+							</ul>
+							<h5 class="news-block_one-heading"><a href="blog-detail.html">What does your blood type have to do with your health?</a></h5>
+							<div class="news-block_one-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block One -->
+				<div class="news-block_one col-lg-4 col-md-6 col-sm-12">
+					<div class="news-block_one-inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="news-block_one-image">
+							<a href="blog-detail.html"><img src="assets/images/resource/news-5.jpg" alt="" /></a>
+						</div>
+						<div class="news-block_one-content">
+							<div class="news-block_one-date"><span>22</span> jan 2023</div>
+							<ul class="news-block_one-meta">
+								<li><span class="icon fa-solid fa-folder-open fa-fw"></span>HEALTH</li>
+								<li><span class="icon fa-solid fa-comments fa-fw"></span>Comments</li>
+							</ul>
+							<h5 class="news-block_one-heading"><a href="blog-detail.html">Healthy habits to reduce the risks of heart diseases</a></h5>
+							<div class="news-block_one-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block One -->
+				<div class="news-block_one col-lg-4 col-md-6 col-sm-12">
+					<div class="news-block_one-inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="news-block_one-image">
+							<a href="blog-detail.html"><img src="assets/images/resource/news-6.jpg" alt="" /></a>
+						</div>
+						<div class="news-block_one-content">
+							<div class="news-block_one-date"><span>22</span> jan 2023</div>
+							<ul class="news-block_one-meta">
+								<li><span class="icon fa-solid fa-folder-open fa-fw"></span>HEALTH</li>
+								<li><span class="icon fa-solid fa-comments fa-fw"></span>Comments</li>
+							</ul>
+							<h5 class="news-block_one-heading"><a href="blog-detail.html">Why men should stay on top of health screenings</a></h5>
+							<div class="news-block_one-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block One -->
+				<div class="news-block_one col-lg-4 col-md-6 col-sm-12">
+					<div class="news-block_one-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="news-block_one-image">
+							<a href="blog-detail.html"><img src="assets/images/resource/news-1.jpg" alt="" /></a>
+						</div>
+						<div class="news-block_one-content">
+							<div class="news-block_one-date"><span>22</span> jan 2023</div>
+							<ul class="news-block_one-meta">
+								<li><span class="icon fa-solid fa-folder-open fa-fw"></span>HEALTH</li>
+								<li><span class="icon fa-solid fa-comments fa-fw"></span>Comments</li>
+							</ul>
+							<h5 class="news-block_one-heading"><a href="blog-detail.html">What does your blood type have to do with your health?</a></h5>
+							<div class="news-block_one-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block One -->
+				<div class="news-block_one col-lg-4 col-md-6 col-sm-12">
+					<div class="news-block_one-inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="news-block_one-image">
+							<a href="blog-detail.html"><img src="assets/images/resource/news-2.jpg" alt="" /></a>
+						</div>
+						<div class="news-block_one-content">
+							<div class="news-block_one-date"><span>22</span> jan 2023</div>
+							<ul class="news-block_one-meta">
+								<li><span class="icon fa-solid fa-folder-open fa-fw"></span>HEALTH</li>
+								<li><span class="icon fa-solid fa-comments fa-fw"></span>Comments</li>
+							</ul>
+							<h5 class="news-block_one-heading"><a href="blog-detail.html">Healthy habits to reduce the risks of heart diseases</a></h5>
+							<div class="news-block_one-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block One -->
+				<div class="news-block_one col-lg-4 col-md-6 col-sm-12">
+					<div class="news-block_one-inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="news-block_one-image">
+							<a href="blog-detail.html"><img src="assets/images/resource/news-3.jpg" alt="" /></a>
+						</div>
+						<div class="news-block_one-content">
+							<div class="news-block_one-date"><span>22</span> jan 2023</div>
+							<ul class="news-block_one-meta">
+								<li><span class="icon fa-solid fa-folder-open fa-fw"></span>HEALTH</li>
+								<li><span class="icon fa-solid fa-comments fa-fw"></span>Comments</li>
+							</ul>
+							<h5 class="news-block_one-heading"><a href="blog-detail.html">Why men should stay on top of health screenings</a></h5>
+							<div class="news-block_one-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </div>
+						</div>
+					</div>
+				</div>
+>>>>>>> c14eab8 (dental)
 				
 			</div>
 			
@@ -678,6 +842,7 @@ if ($conn->connect_error) {
 	<!-- End Blog Page -->
 	
 	<!-- Newsletter Section -->
+<<<<<<< HEAD
 
 	<!-- End Newsletter Section -->
 	
@@ -796,6 +961,40 @@ if ($conn->connect_error) {
 		</div>
 	</footer>
 	
+=======
+	<section class="newsletter-one">
+		<div class="auto-container">
+			<div class="newsletter-one_inner-container" style="background-image:url(assets/images/background/pattern-7.png)">
+				<div class="newsletter-one_icon">
+					<img src="assets/images/icons/envelope.png" alt="" />
+				</div>
+				<div class="row clearfix">
+					<!-- Title Column -->
+					<div class="newsletter-one_title-column col-lg-6 col-md-12 col-sm-12">
+						<h3 class="newsletter-one_title">Latest update <br> subscribe to our newsletter</h3>
+					</div>
+					<!-- Form Column -->
+					<div class="newsletter-one_form-column col-lg-6 col-md-12 col-sm-12">
+						<!-- Subscribe Form -->
+						<div class="subscribe-form">
+							<form method="post" action="contact.html">
+								<div class="form-group">
+									<input type="email" name="email" value="" placeholder="Your Email Address" required>
+									<button type="submit" class="theme-btn fa-solid fa-paper-plane fa-fw"></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Newsletter Section -->
+	
+	<?php  
+	include "includes/footerBar.php";
+	?>
+>>>>>>> c14eab8 (dental)
 	<!-- Search Popup -->
 	<div class="search-popup">
 		<div class="color-layer"></div>
@@ -812,6 +1011,7 @@ if ($conn->connect_error) {
 </div>
 <!-- End PageWrapper -->
 
+<<<<<<< HEAD
 <!-- Color Palate / Color Switcher -->
 <div class="color-palate">
 	<div class="color-trigger">
@@ -883,3 +1083,9 @@ if ($conn->connect_error) {
 
 </body>
 </html>
+=======
+
+<?php  
+include "includes/footer.php";
+?>
+>>>>>>> c14eab8 (dental)
