@@ -180,22 +180,23 @@ include "includes/header.php";
 				die("Connection failed: " . $conn->connect_error);
 			}
 
-			$sql = "SELECT header, text FROM services";
+			$sql = "SELECT serviceimage,header, text FROM services";
 			$result = $conn->query($sql);
 
 			if ($result->num_rows > 0) {
 				while ($row = $result->fetch_assoc()) {
 					$header_value = $row['header'];
 					$text_value = $row['text'];
+					$serviceimage = $row['serviceimage'];
 					$max_text_length = 60; // You can adjust this value as needed
 					$truncated_text = strlen($text_value) > $max_text_length ? substr($text_value, 0, $max_text_length) . "..." : $text_value;
 
 			?>
 				<div class="service-block_two">
-					<div class="service-block_two-inner" style="height: 370px;">
-						<div class="service-block-two_pattern" style="background-image:url(images/pattern-9.png)"></div>
-						<div class="service-block-two_pattern-two" style="background-image:url(images/pattern-10.png)"></div>
-						<img src="images/dental.png" class="pro" style="display: block;" alt="" />
+					<div class="service-block_two-inner" style="height: 430px;">
+						<div class="service-block-two_pattern" style="background-image:url(assets/images/pattern-9.png)"></div>
+						<div class="service-block-two_pattern-two" style="background-image:url(assets/images/pattern-10.png)"></div>
+						<img src="assets/<?php echo $serviceimage ?>" class="pro" width="200" height="200" style="display: block;" alt="" />
 						<h4 class="service-block_two-heading" style="height: 66px;"><a href="javascript:;"><?php echo $header_value ?></a></h4>
 						<div class="service-block_two-text"><?php echo $truncated_text ?></div>
 						<a class="service-block_two-more" href="javascript:;">Read More</a>

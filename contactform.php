@@ -14,7 +14,7 @@ if (isset($_POST['email'])) {
     $msg_subject = $_POST['subject'];
     $message = $_POST['message'];
 
-    $to = 'careers@infi-pre.com';  // PUT YOUR EMAIL ID
+    $to = 'nigalyedentalclinic@gmail.com';  // PUT YOUR EMAIL ID
     $subject = $msg_subject;
     $message_body = "Name: $name<br>";
     $message_body .= "Email: $email<br>";
@@ -30,8 +30,8 @@ if (isset($_POST['email'])) {
         $mail->SMTPSecure = "ssl";
         $mail->Host = "smtp.zoho.in"; 
         $mail->Port = 465; 
-        $mail->Username = 'careers@infi-pre.com'; //PUT EMAIL 
-        $mail->Password = 'Careers_03'; //PUT PASSWORD
+        $mail->Username = 'nigalyedentalclinic@gmail.com'; //PUT EMAIL 
+        $mail->Password = 'Nigalye@321'; //PUT PASSWORD
 
         // Recipients
         $mail->setFrom($to, $name); 
