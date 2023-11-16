@@ -2,11 +2,11 @@
 <footer class="main-footer style-two" style="background-image: url(assets/images/background/pattern-18.png)">
 		<!-- Vector One -->
 		<span class="footer-vector_one">
-			<img src="assets/images/resource/footer-vector-1.png" alt="" />
+			<!-- <img src="assets/images/resource/footer-vector-1.png" alt="" /> -->
 		</span>
 		<!-- Vector Two -->
 		<span class="footer-vector_two">
-			<img src="assets/images/resource/footer-vector-2.png" alt="" />
+			<!-- <img src="assets/images/resource/footer-vector-2.png" alt="" /> -->
 		</span>
 		<div class="auto-container">
         	<!--Widgets Section-->

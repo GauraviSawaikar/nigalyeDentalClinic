@@ -98,7 +98,7 @@ include "includes/header.php";
 					}
 			?>
 			<div class="service-block_two col-lg-3 col-md-4 col-sm-6" onClick="popupShow(<?php echo $i; ?>);">
-				<div class="service-block_two-inner">
+				<div class="service-block_two-inner" style="height: 295px;">
 					<div class="service-block-two_pattern" style="background-image:url(assets/images/pattern-9.png)"></div>
 					<div class="service-block-two_pattern-two" style="background-image:url(assets/images/pattern-10.png)"></div>
 					<img src="images/dental.png" class="pro" style="display: block;" alt="" />
