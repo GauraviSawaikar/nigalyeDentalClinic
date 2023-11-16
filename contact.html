@@ -27,45 +27,45 @@
 
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-<style>
-	.error-message {
-		font-size: 14px;
-		color: red;
-		margin-top: 5px;
-	}
-
-	.submission-message {
-		position: fixed;
-		top: 20px;
-		right: 20px;
-		background-color: #2ecc71;
-		color: #fff;
-		padding: 10px 20px;
-		border-radius: 5px;
-		text-align: center;
-		font-size: 14px;
-		display: none;
-		z-index: 999;
-		transition: opacity 0.5s ease;
-	}
-
-	.error {
-		background-color: red;
-	}
-
-	@keyframes slide-up {
-		from {
-			transform: translateX(-50%) translateY(100%);
+	<style>
+		.error-message {
+			font-size: 14px;
+			color: red;
+			margin-top: 5px;
 		}
-		to {
-			transform: translateX(-50%) translateY(0);
-		}
-	}
 
-	.submission-message.show {
-		animation: slide-up 0.5s ease;
-	}
-</style>
+		.submission-message {
+			position: fixed;
+			top: 20px;
+			right: 20px;
+			background-color: #2ecc71;
+			color: #fff;
+			padding: 10px 20px;
+			border-radius: 5px;
+			text-align: center;
+			font-size: 14px;
+			display: none;
+			z-index: 999;
+			transition: opacity 0.5s ease;
+		}
+
+		.error {
+			background-color: red;
+		}
+
+		@keyframes slide-up {
+			from {
+				transform: translateX(-50%) translateY(100%);
+			}
+			to {
+				transform: translateX(-50%) translateY(0);
+			}
+		}
+
+		.submission-message.show {
+			animation: slide-up 0.5s ease;
+		}
+	</style>
 </head>
 
 <body class="hidden-bar-wrapper">

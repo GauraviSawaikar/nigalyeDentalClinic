@@ -435,7 +435,6 @@ if ($result->num_rows > 0) {
 		$serviceimage=$row['serviceimage'];
         $text_value = $row['text'];
 		$max_text_length = 100; // You can adjust this value as needed
-        //$truncated_text = strlen($text_value) > $max_text_length ? substr($text_value, 0, $max_text_length) . "..." : $text_value;
 
 		if (strlen($text_value) > $max_text_length) {
 			// Truncate the text to 100 characters and add "..."
@@ -459,6 +458,7 @@ if ($result->num_rows > 0) {
 </div>
 <?php
     }?>
+	
 	 <!-- Popup container -->
     <div id="imagePopup" class="popup" onClick="closePopup();">
 		<span class="close-button" onclick="closePopup();">&times;</span>
